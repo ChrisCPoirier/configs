@@ -2,6 +2,7 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
+set nowrap
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
@@ -22,8 +23,6 @@ Plugin 'stanangeloff/php.vim'
 Plugin 'shawncplus/phpcomplete.vim'
 Bundle 'Shougo/vimproc.vim'
 Bundle 'Shougo/unite.vim'
-" Bundle 'm2mdas/phpcomplete-extended'
-" Bundle 'futurityverb/phpcomplete-extended-laravel'
 
 "POWER LINE: Makes awsome footer"
 Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
